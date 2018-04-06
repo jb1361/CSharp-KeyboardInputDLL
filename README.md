@@ -1,5 +1,7 @@
 # CSharp-KeyboardInputDLL
 
+# Currently Not All Keys Mapped 
+
 There are two methods exported from the dll for key presses. KeyDown and KeyUp.
 They take integers as parameters and those integers map to a scancode.
 
