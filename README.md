@@ -2,6 +2,8 @@
 
 # Currently Not All Keys Mapped 
 
+Requires: https://www.microsoft.com/en-us/download/details.aspx?id=48159
+
 There are two methods exported from the dll for key presses. KeyDown and KeyUp.
 They take integers as parameters and those integers map to a scancode.
 
