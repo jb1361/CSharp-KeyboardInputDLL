@@ -183,14 +183,13 @@ They take integers as parameters and those integers map to a scancode.
 
 ```    
         
-       Simply import the dll and call the methods.
+Simply import the dll and call the methods.
        
        
+Python usage:
        
-       Python usage:
-       
-       from ctypes import*
-       
-       lib = cdll.LoadLibrary("KeyboardInput.dll")
-       lib.KeyDown(45)
+from ctypes import*
+
+lib = cdll.LoadLibrary("KeyboardInput.dll")
+lib.KeyDown(45)
        
