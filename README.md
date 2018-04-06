@@ -191,5 +191,6 @@ Python usage:
 from ctypes import*
 
 lib = cdll.LoadLibrary("KeyboardInput.dll")
+
 lib.KeyDown(45)
        
