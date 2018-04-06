@@ -3,6 +3,8 @@
 There are two methods exported from the dll for key presses. KeyDown and KeyUp.
 They take integers as parameters and those integers map to a scancode.
 
+```
+
  public enum ScanCodeShort : short
         {
             LBUTTON = 0,
@@ -178,9 +180,8 @@ They take integers as parameters and those integers map to a scancode.
             PA1 = 0,
             OEM_CLEAR = 0,
         }
-        
-        
-        
+
+```    
         
        Simply import the dll and call the methods.
        
