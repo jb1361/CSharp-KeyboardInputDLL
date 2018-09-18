@@ -2,9 +2,10 @@
 
 # Currently Not All Keys Mapped 
 
-Requires: https://www.microsoft.com/en-us/download/details.aspx?id=48159
-          Unmanaged Exports Nuget Package.        
-
+## Requires: 
+### https://www.microsoft.com/en-us/download/details.aspx?id=48159
+### Unmanaged Exports Nuget Package.        
+#
 Just use that package to compile the dll then you can import it into any language you choose.
 
 There are two methods exported from the dll for key presses. KeyDown and KeyUp.
